@@ -1,0 +1,38 @@
+@font-face {
+        font-family: 'ace';
+        src: url('../fontes/carnivalee_freakshow/Carnevalee\ Freakshow.ttf');
+    }
+.nav_layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'ace', sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(4px);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.202);
+    border-radius: 4px;
+    height: 10vh;
+    text-decoration: none;
+}
+.nav_link{
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    padding: .5em;
+    font-size: 2em;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.nav_link:hover{
+    font-size: 2.2em;
+    color: purple;
+    text-decoration: line-through;
+}
+
+.nav_layout h1{
+    padding-left: .5em;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    font-size: 2.5em;
+}
+
