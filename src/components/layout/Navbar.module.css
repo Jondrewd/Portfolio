@@ -7,9 +7,9 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'ace', sans-serif;
-    background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(4px);
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.202);
+    background-color: rgba(0, 0, 0, 0.115);
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 8px rgba(115, 0, 255, 0.457);
     border-radius: 4px;
     height: 10vh;
     text-decoration: none;
