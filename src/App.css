@@ -1,1 +1,26 @@
-body{background-color: black;}
+@keyframes planeta1 {
+    from {
+      transform: rotate(0deg) translateX(300px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateX(300px) rotate(-360deg);
+    }
+  }
+
+body{
+    background-color: black;
+    
+    
+}
+nav{
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+    top: 500px;
+    margin-left: 1050px;
+    
+}
+
+
+
+

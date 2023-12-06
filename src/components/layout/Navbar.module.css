@@ -11,8 +11,10 @@
     backdrop-filter: blur(10px);
     box-shadow: 1px 1px 8px rgba(115, 0, 255, 0.457);
     border-radius: 4px;
+    width: 100vw;
     height: 10vh;
     text-decoration: none;
+    flex-wrap: nowrap;
 }
 .nav_link{
     color: white;
