@@ -6,12 +6,13 @@ import Skills from './components/pages/Skills';
 import Navbar from './components/layout/Navbar';
 import Aboutme from './components/pages/Aboutme';
 import Projects from './components/pages/Projects';
+import Container from './components/layout/Container';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
     <body>
       <div className='planoDeFundo'></div>
-      
         <nav>
             <div className='planeta_1'></div>
             <div className='planeta_2'></div>
@@ -21,16 +22,19 @@ function App() {
             <div className='planeta_6'></div>
             
           </nav>
-      <div className='router'>
+      <div >
         <Router>
           <Navbar/>
         
-          <Routes>
-            <Route path='/' exact element={<Home/>}/>
-            <Route path='/skills' exact element={<Skills/>}/>
-            <Route path='/aboutme' exact element={<Aboutme/>}/>
-            <Route path='/projects' exact element={<Projects/>}/>
-          </Routes>
+          <Container>
+            <Routes className='router'>
+              <Route path='/' exact element={<Home/>}/>
+              <Route path='/skills' exact element={<Skills/>}/>
+              <Route path='/aboutme' exact element={<Aboutme/>}/>
+              <Route path='/projects' exact element={<Projects/>}/>
+            </Routes>
+          </Container>
+          <Footer/>
         </Router>
       </div>
     </body>
