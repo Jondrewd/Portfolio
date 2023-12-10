@@ -1,15 +1,70 @@
-@keyframes planeta1 {
+@keyframes planeta {
     from {
-      transform: rotate(0deg) translateX(300px) rotate(0deg);
+      transform: rotate(0deg) translateX(500px) rotate(0deg);
     }
     to {
-      transform: rotate(360deg) translateX(300px) rotate(-360deg);
+      transform: rotate(360deg) translateX(500px) rotate(-360deg);
     }
   }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-image: url(./components/images/Captura\ de\ tela\ 2023-12-10\ 162253.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.planoDeFundo{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+  
+
+.planeta_1, .planeta_2, .planeta_3, .planeta_4, .planeta_5, .planeta_6{
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-
-
+.bN{
+  background-image: url(./components/images/buraco\ negro2.png);
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+.planeta_1{
+  background-image: url('./components/images/1701806940951.png');
+  animation: planeta 25s linear infinite;
+  position: absolute;
+  
+}
+.planeta_2{
+  background-image: url('./components/images/1701807053351.png');
+  animation: planeta 32s linear infinite;
+  position: absolute;
+}
+.planeta_3{
+  background-image: url('./components/images/1701807096188.png');
+  animation: planeta 35s linear infinite;
+  position: absolute;
+}
+.planeta_4{
+  background-image: url('./components/images/1701807118008.png');
+  animation: planeta 39s linear infinite;
+  position: absolute;
+}
+.planeta_5{
+  background-image: url('./components/images/1701807159253.png');
+  animation: planeta 42s linear infinite;
+  position: absolute;
+  
+}
+.planeta_6{
+  background-image: url('./components/images/1701807199480.png');
+  animation: planeta 20s linear infinite;
+  position: absolute;
+}

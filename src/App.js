@@ -10,10 +10,12 @@ import Container from './components/layout/Container';
 import Footer from './components/layout/Footer';
 
 function App() {
+  
   return (
     <body>
-      <div className='planoDeFundo'></div>
-        <nav>
+      
+        <div className='planoDeFundo'>
+          <div className='bN'></div>
             <div className='planeta_1'></div>
             <div className='planeta_2'></div>
             <div className='planeta_3'></div>
@@ -21,7 +23,7 @@ function App() {
             <div className='planeta_5'></div>
             <div className='planeta_6'></div>
             
-          </nav>
+          </div>
       <div >
         <Router>
           <Navbar/>
@@ -34,7 +36,6 @@ function App() {
               <Route path='/projects' exact element={<Projects/>}/>
             </Routes>
           </Container>
-          <Footer/>
         </Router>
       </div>
     </body>
