@@ -6,6 +6,8 @@
     bottom: 0;
     text-align: center;
     box-shadow: 1px 1px 10px rgb(115, 0, 255, 0.457);
+    position: absolute;
+   
 }
 .footer_layout h1{
     padding-top: 15px;

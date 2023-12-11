@@ -24,7 +24,7 @@ function App() {
             <div className='planeta_6'></div>
             
           </div>
-      <div >
+      <div className='container'>
         <Router>
           <Navbar/>
         
