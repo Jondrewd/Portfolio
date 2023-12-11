@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'starjedi';
+    src: url('../fontes/texas_tango/TEXAT\ BOLD\ PERSONAL\ USE___.otf');
+}
+.me{
+    background-image: url(../images/_9d77bfa3-8005-45af-802b-fde025dea995.jpeg);
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background-size: contain;
+    box-shadow: 1px 1px 20px rgba(115, 0, 255, 0.457);;
+    margin-right: 200px;
+}
+
+.homeContainer{
+    font-family: 'starjedi', sans-serif;
+    margin-top: 150px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    
+    
+}
+.textHome h1, h2{
+  padding-bottom: 3px;
+  margin-right: 20px;text-shadow: 1px 1px 8px rgb(0, 0, 0);
+  text-decoration: none;
+    
+}
+.textHome h1{
+    font-size: 4em;
+}
+.textHome h2{
+    font-size: 1.5em;
+}
+@media(max-width: 1039px){
+    .homeContainer{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}
