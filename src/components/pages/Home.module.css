@@ -40,4 +40,19 @@
         margin: 0;
         padding: 0;
     }
+    .me{
+        width: 180px;
+        height: 180px;
+        margin-left: 200px;
+    }
+    .textHome{
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+    .textHome h1{
+        font-size: 3em;
+    }
+    .textHome h2{
+        font-size: 1.2em;
+    }
 }
