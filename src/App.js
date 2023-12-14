@@ -12,34 +12,25 @@ import Footer from './components/layout/Footer';
 function App() {
   
   return (
-    <body>
-      
-        <div className='planoDeFundo'>
-          <div className='bN'></div>
-            <div className='planeta_1'></div>
-            <div className='planeta_2'></div>
-            <div className='planeta_3'></div>
-            <div className='planeta_4'></div>
-            <div className='planeta_5'></div>
-            <div className='planeta_6'></div>
-            
-          </div>
-      <div className='container'>
-        <Router>
-          <Navbar/>
-        
-          <Container>
-            <Routes className='router'>
-              <Route path='/' exact element={<Home/>}/>
-              <Route path='/skills' exact element={<Skills/>}/>
-              <Route path='/aboutme' exact element={<Aboutme/>}/>
-              <Route path='/projects' exact element={<Projects/>}/>
-            </Routes>
-          </Container>
-        </Router>
-      </div>
-    </body>
-  );
-}
+<body>
+  
+        <div className='container'>
+          <Router>
+            <Navbar/>
+  
+            <Container>
+              <Routes className='router'>
+                <Route path='/' exact element={<Home/>}/>
+                <Route path='/skills' exact element={<Skills/>}/>
+                <Route path='/aboutme' exact element={<Aboutme/>}/>
+                <Route path='/projects' exact element={<Projects/>}/>
+              </Routes>
+            </Container>
+          </Router>
+        </div>
+  
+   
+</body>
+);}
 
 export default App;
