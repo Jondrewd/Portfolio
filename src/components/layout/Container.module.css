@@ -6,10 +6,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: center;
+    align-content: center;
+    flex-wrap: wrap;
 
-   
+  
 
-    padding-block: 116px;
+  
     gap: 1em;
     
 

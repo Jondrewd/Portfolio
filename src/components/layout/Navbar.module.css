@@ -7,10 +7,7 @@
     justify-content: space-around;
     align-items: center;
     font-family: 'ace', sans-serif;
-    background-color: rgba(0, 0, 0, 0.115);
-    backdrop-filter: blur(10px);
-    box-shadow: 1px 1px 8px rgba(115, 0, 255, 0.457);
-    border-radius: 4px;
+
     width: 100vw;
     min-width: 40vh;
     height: 70px;
@@ -23,14 +20,14 @@
 .nav_link{
     color: white;
     text-shadow: 1px 1px 10px black;
-    margin-right: 5px;
-    font-size: 2em;
+    margin-right: 40px;
+    font-size: 1.3em;
     text-decoration: none;
     transition: .5s;
 }
 
 .nav_link:hover{
-    font-size: 2.2em;
+    font-size: 1.6em;
     color: purple;
     text-decoration: line-through;
 }
@@ -38,7 +35,7 @@
 .nav_layout h1{
     padding-left: .4em;
     text-shadow: 1px 1px 10px rgb(0, 0, 0);
-    font-size: 2.5em;
+    font-size: 2em;
 }
 .jedi{
     background-image: url('../images/Picsart_23-12-05_16-59-00-379.png');
