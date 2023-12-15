@@ -1,6 +1,10 @@
+import styles from './Skills.module.css'
+
 function Skills(){
     return(
-    <h1>Skills</h1>
+    <div className={styles.skillsLayout}>
+        <h1>Skills</h1>
+    </div>
 )}
 
 export default Skills

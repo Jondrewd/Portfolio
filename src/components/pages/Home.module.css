@@ -16,11 +16,7 @@ strong{
     color: rgb(130, 45, 130);
 }
 
-button{
-    background-color: transparent;
-    border: 1px solid rgb(130, 45, 130);
-    padding: 3px;
-}
+
 
 .image{
     background-image: url(../images/Picsart_23-12-05_16-59-00-379.png);

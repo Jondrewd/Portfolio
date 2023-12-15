@@ -1,6 +1,10 @@
+import styles from './Aboutme.module.css'
+
 function Aboutme(){
     return(
-    <h1>Aboutme</h1>
+    <div className={styles.aboutLayout}>
+        <h1>Aboutme</h1>
+    </div>
 )}
 
 export default Aboutme

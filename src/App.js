@@ -7,7 +7,7 @@ import Navbar from './components/layout/Navbar';
 import Aboutme from './components/pages/Aboutme';
 import Projects from './components/pages/Projects';
 import Container from './components/layout/Container';
-import Footer from './components/layout/Footer';
+
 
 function App() {
   
