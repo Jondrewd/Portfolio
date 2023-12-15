@@ -1,7 +1,12 @@
-function button(){
+import {Link} from 'react-router-dom'
+
+import styles from './Button.module.css'
+function Button({to, text}){
     return(
-        <button>{$name}</button>
+        <Link className={styles.btn} to={to}>
+        {text}
+        </Link>
     )
 }
 
-export default button
+export default Button
