@@ -1,6 +1,29 @@
 .skillsLayout{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     position: relative;
-    top: 250px;
+    top: 130px;
+    align-content: space-between;
+   
+}
+.linguagemlt{
+    margin: 10px;
+    border: 1px solid rgb(97, 8, 97);
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 4px 6px rgb(130, 45, 130);
+}
+.frontback{
+    display: flex;
+    flex-direction: row;
+}
+.icons{
+    font-size: 50px;
+    
+}
+p{
+    padding: 10px;
+}
+strong{
+    color: rgb(130, 45, 130);
 }
