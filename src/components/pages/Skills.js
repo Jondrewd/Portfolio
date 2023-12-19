@@ -35,7 +35,7 @@ function Skills(){
             </div>
             <div className={styles.linguagemlt}>
                 <FaPython className={styles.icons}/>
-                <p><strong>Python</strong> é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. </p>
+                <p><strong>Python</strong> é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.</p>
                 </div>
         </nav>
         
