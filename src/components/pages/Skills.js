@@ -7,34 +7,57 @@ import styles from './Skills.module.css'
 function Skills(){
     return(
     <div className={styles.skillsLayout}>
-        <h1>Front-end:</h1>
+        <h1>Conhecimentos sólidos em:</h1>
         <nav className={styles.frontback}>
             <div className={styles.linguagemlt}>
-                <FaReact className={styles.icons}/> 
+                <nav className={styles.textL}>
+                    <FaReact className={styles.icons}/>
+                    <h1>React</h1>
+                </nav>
                 <p>O <strong>React</strong> é uma biblioteca front-end <strong>JavaScript</strong> de código aberto com foco em criar interfaces de usuário em páginas web.</p>
                 </div>
+
             <div className={styles.linguagemlt}>
-                <IoLogoJavascript className={styles.icons}/>
+                <nav className={styles.textL}>
+                    <IoLogoJavascript className={styles.icons}/>
+                    <h1>Javascript</h1>
+                </nav>
                 <p>O <strong>Javascript</strong> é linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
                 </div>
+
             <div className={styles.linguagemlt}>
-                <FaHtml5 className={styles.icons}/>
+                <nav className={styles.textL}>
+                    <FaHtml5 className={styles.icons}/>
+                    <h1>HTML</h1>
+                </nav>
                 <p><strong>HTML</strong> é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos <strong>HTML</strong> podem ser interpretados por navegadores.</p>
             </div>
+
             <div className={styles.linguagemlt}>
-                <FaCss3 className={styles.icons}/>
-                <p><strong>Css</strong> é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags <strong>HTML</strong> </p>
+                <nav className={styles.textL}>
+                    <FaCss3 className={styles.icons}/>
+                    <h1>CSS</h1>
+                </nav>
+                <p><strong>Css</strong> é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags <strong>HTML</strong>. </p>
+            </div>
+            <div className={styles.linguagemlt}>
+                <nav className={styles.textL}>
+                    <FaJava className={styles.icons}/>
+                    <h1>Java</h1>
+                </nav>
+                <p><strong>Java</strong> é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores na empresa Sun Microsystems.</p>
             </div>
 
         </nav>
-        <h1>Back-end</h1>
+        <h1>Aprendendo:</h1>
         <nav className={styles.frontback}>
+            
+
             <div className={styles.linguagemlt}>
-                <FaJava className={styles.icons}/>
-                <p><strong>Java</strong> é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores na empresa Sun Microsystems</p>
-            </div>
-            <div className={styles.linguagemlt}>
-                <FaPython className={styles.icons}/>
+                <nav className={styles.textL}>
+                    <FaPython className={styles.icons}/>
+                    <h1>Python</h1>
+                </nav>
                 <p><strong>Python</strong> é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.</p>
                 </div>
         </nav>
