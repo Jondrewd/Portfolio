@@ -17,6 +17,13 @@
     display: flex;
     flex-direction: row;
 }
+.textL{
+    display: flex;
+}
+.textL h1{
+    padding: 15px;
+    font-size: 1.5em;
+}
 .icons{
     font-size: 50px;
     
