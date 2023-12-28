@@ -1,6 +1,6 @@
 .container{
-    width: 100vw;
-    min-height: 76vh;
+    width: 100%;
+    min-height: 100vh;
     
 
     display: flex;
@@ -11,7 +11,7 @@
     flex-wrap: wrap;
 
   
-
+ 
   
     gap: 1em;
     
