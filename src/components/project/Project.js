@@ -4,18 +4,25 @@ import Button from '../layout/Button'
 function Project(){
     return(
         <div>
-            <nav>
-                <div className={styles.projectGrid}><h1>Em construção...</h1> </div>
-                <div className={styles.projectGrid}><h1>Em construção...</h1> </div>
-                <div className={styles.projectGrid}><h1>Em construção...</h1> </div>
-                <div className={styles.projectGrid}><h1>Em construção...</h1> </div>
+            <nav className={styles.space}>
+                <span>
+                    <div className={styles.projectGrid}><h1>Em construção...</h1> </div>
+                    <div className={styles.button}><Button  to="/" text="Ver mais" /></div></span>
+                <span>
+                    <div className={styles.projectGrid}><h1>Em construção...</h1> </div>
+                    <div className={styles.button}><Button  to="/" text="Ver mais" /></div>
+                </span>
+                <span>
+                    <div className={styles.projectGrid}><h1>Em construção...</h1> </div>
+                    <div className={styles.button}><Button  to="/" text="Ver mais" /></div>
+                </span>
+                <span>
+                    <div className={styles.projectGrid}><h1>Em construção...</h1> </div>
+                    <div className={styles.button}><Button  to="/" text="Ver mais" /></div>
+                </span>
+
             </nav>
-            <div className={styles.buttonLayout}>
-                <div className={styles.button}><Button  to="/" text="Ver mais" /></div>
-                <div className={styles.button}><Button  to="/" text="Ver mais" /></div>
-                <div className={styles.button}><Button  to="/" text="Ver mais" /></div>
-                <div className={styles.button}><Button  to="/" text="Ver mais" /></div>
-            </div>
+
             
         </div>
         )
