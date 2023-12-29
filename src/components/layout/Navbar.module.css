@@ -25,6 +25,13 @@
     text-decoration: none;
     transition: .5s;
 }
+.nav_linkh1{ 
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    margin-right: 40px;
+    text-decoration: none;
+    transition: .5s;
+}
 
 .nav_link:hover{
     font-size: 1.6em;
@@ -32,11 +39,7 @@
     text-decoration: line-through;
 }
 
-.nav_layout h1{
-    padding-left: .4em;
-    text-shadow: 1px 1px 10px rgb(0, 0, 0);
-    font-size: 2em;
-}
+
 .jedi{
     background-image: url('../images/Picsart_23-12-05_16-59-00-379.png');
     width: 70px;
