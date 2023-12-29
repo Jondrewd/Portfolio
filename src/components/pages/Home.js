@@ -9,7 +9,7 @@ function Home(){
        <div className={styles.text}>
            <h1>Desenvolvedor <strong>fullstack</strong></h1>
            <p>Crio sites utilizando React e Java</p>
-           <Button to="/Aboutme" text="Entre em contato" />
+           <Button to="/contato" text="Entre em contato" />
        </div>
         <div className={styles.image}></div>
      
