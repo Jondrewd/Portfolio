@@ -50,10 +50,11 @@
     display: none;
 }
 @media(max-width: 560px){
-    .nav_layout h1, .nav_link{
+     .nav_link{
         display: none;
     }
-    .jedi{
-        display: block;
+    .nav_layout h1{
+        margin-left: 75%;
     }
+
 }

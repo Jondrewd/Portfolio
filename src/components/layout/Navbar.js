@@ -15,7 +15,7 @@ function Navbar(){
                 <Link className={styles.nav_link} to='/projects'> Projects</Link>
             </ul>
             
-          <div className={styles.jedi}></div>  <Sidebar/>
+           <Sidebar/>
         </div>
         
 )}
