@@ -34,3 +34,14 @@ p{
 strong{
     color: rgb(130, 45, 130);
 }
+
+@media(max-width: 560px){
+    .linguagemlt{
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .frontback{
+        padding: 20px;
+    }
+
+}

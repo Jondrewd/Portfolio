@@ -4,3 +4,10 @@
     position: relative;
     top: 250px;
 }
+
+@media(max-width: 560px){
+    .projectsLayout{
+        top: 130px;
+        left: 18%;
+    }
+}
