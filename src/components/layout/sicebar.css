@@ -1,13 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
-  body {
-    margin: 0;
-    background: #12131a;
-    font-family: "Euclid Circular A";
-  }
-  
+
   button {
     background: transparent;
     border: 0;
@@ -71,22 +65,14 @@
     text-decoration: none;
   }
   
-  .sidebar button:is(.active, :hover) {
-    background: #004fee;
-    color: #e1ecff;
-
-  }
   
   .sidebar button span {
     transition: 0.3s;
   }
-  
-  .sidebar button.active > span:nth-child(3) {
-    rotate: -180deg;
-  }
-  
+
   .sidebar button:not(.active):hover {
     background: #2e303e;
+    width: 200px;
   }
   
   .sub-nav button.active::before {
@@ -145,4 +131,13 @@
     font-size: 1.8em;
     color: purple;
     text-decoration: line-through;
+}
+.sidebar, .nav-button{
+  display: none;
+}
+@media(max-width: 560px){
+  .sidebar, .nav-button{
+    display: block;
+    margin-bottom: 15px;
+  }
 }

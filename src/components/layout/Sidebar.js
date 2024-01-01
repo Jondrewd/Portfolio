@@ -72,7 +72,7 @@ const SubMenu = ({ item, activeItem, handleClick }) => {
 
 export const Sidebar = () => {
   const [activeItem, setActiveItem] = useState("");
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const handleClick = (item) => {
     setActiveItem(item !== activeItem ? item : "");
