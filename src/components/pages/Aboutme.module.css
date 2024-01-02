@@ -1,6 +1,37 @@
 .aboutLayout{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     position: relative;
     top: 250px;
+}
+.imageA{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('../images/_9d77bfa3-8005-45af-802b-fde025dea995.jpeg');
+    background-size: cover;
+}
+
+.textA{
+    margin-left: 50px;
+    width: 500px;
+
+}
+
+@media(max-width: 560px){
+    .aboutLayout{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 200px;
+        align-items: center;
+    }
+    .textA{
+        margin: 0px;
+        margin-top: 5px;
+        width: 80%;
+    }
+    .textA p{
+        padding-top: 10px;
+    }
 }
