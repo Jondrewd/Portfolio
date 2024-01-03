@@ -1,38 +1,77 @@
+
+  @keyframes neon {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+
+  }
+  
+
 .skillsLayout{
     display: flex;
     flex-direction: column;
     position: relative;
     top: 130px;
     align-content: space-between;
-   
+    flex-wrap: wrap;
 }
 .linguagemlt{
     margin: 10px;
-    border: 1px solid rgb(97, 8, 97);
     width: 200px;
     height: 200px;
-    box-shadow: 3px 4px 6px rgb(130, 45, 130);
+    position: relative;
+    overflow: hidden;
 }
+
+.linguagemlt::before{
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: -20%;
+    width: 300px;
+    height: 50px;
+    background: linear-gradient( purple, #00e5ff);
+    box-shadow: 1px 1px 10px rgb(248, 2, 248);
+    animation: neon 5s linear infinite;
+    
+}
+.linguagemlt::after{
+    content: '';
+    position: absolute;
+    inset: 1.5px;
+    background-image: linear-gradient(to right, rgb(33, 33, 43), black);
+
+}
+
 .frontback{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .textL{
     display: flex;
+   
 }
 .textL h1{
     padding: 15px;
     font-size: 1.5em;
+    z-index: 1;
 }
 .icons{
     font-size: 50px;
+    z-index: 1;
     
 }
-p{
+.descP{
     padding: 10px;
+    z-index: 1;
 }
 strong{
     color: rgb(130, 45, 130);
+    
 }
 
 @media(max-width: 560px){
