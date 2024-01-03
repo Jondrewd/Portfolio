@@ -1,4 +1,25 @@
-nav{
+
+@keyframes neon {
+    0% {
+        box-shadow: -2px -2px 7px rgb(130, 45, 130);
+    }
+    25% {
+        box-shadow: -2px 2px 7px rgb(130, 45, 130);
+    }   
+    50% {
+        box-shadow: 2px 2px 7px rgb(130, 45, 130);
+    }
+
+    75%{
+        box-shadow: 2px -2px 7px rgb(130, 45, 130);
+    }
+    100% {
+        box-shadow: -2px -2px 7px rgb(130, 45, 130);
+    }
+
+  }
+  
+  .space{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -16,8 +37,9 @@ nav{
     margin-right: 100px;
     margin-bottom: 30px;
     border: 1px solid purple;
-    box-shadow: 3px 4px 6px rgb(130, 45, 130);
+    
     text-align: center;
+    animation: neon 5s ease 0s infinite;
 }
 .projectGrid h1{
     margin-top: 40%;
