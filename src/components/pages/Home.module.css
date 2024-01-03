@@ -4,12 +4,14 @@
     position: relative;
     top: 250px;
 }
-.text{
+.textH{
     padding: 50px;
 }
 p{
-    padding: 12px 0px;
     color: rgb(173, 173, 173);
+}
+.textH p{
+    padding: 12px 0px;
 }
 
 strong{
