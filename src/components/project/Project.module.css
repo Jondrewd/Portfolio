@@ -1,4 +1,3 @@
-
 @keyframes neon {
     0% {
         box-shadow: -2px -2px 7px rgb(130, 45, 130);
@@ -16,10 +15,9 @@
     100% {
         box-shadow: -2px -2px 7px rgb(130, 45, 130);
     }
-
   }
   
-  .space{
+.space{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,7 +35,6 @@
     margin-right: 100px;
     margin-bottom: 30px;
     border: 1px solid purple;
-    
     text-align: center;
     animation: neon 5s ease 0s infinite;
 }

@@ -17,12 +17,19 @@ p{
 strong{
     color: rgb(130, 45, 130);
 }
-
-
-
 .image{
     background-image: url(../images/Picsart_23-12-05_16-59-00-379.png);
     width: 200px;
     height: 200px;
     background-size: cover;
+}
+@media(max-width: 560px){
+    .textH{
+        padding: 0;
+        margin-left: 3%;
+    }
+    .image{
+        width: 150px;
+        height: 150px;
+    }
 }

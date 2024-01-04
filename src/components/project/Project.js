@@ -21,11 +21,9 @@ function Project(){
                     <div className={styles.button}><Button  to="/" text="Ver mais" /></div>
                 </span>
 
-            </nav>
-
-            
+            </nav>  
         </div>
-        )
+    )
 }
 
 export default Project

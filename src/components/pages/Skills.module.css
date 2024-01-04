@@ -1,15 +1,11 @@
-
-  @keyframes neon {
+@keyframes neon {
     0% {
         transform: rotate(0deg);
     }
     100% {
         transform: rotate(360deg);
     }
-
   }
-  
-
 .skillsLayout{
     display: flex;
     flex-direction: column;
@@ -35,15 +31,13 @@
     height: 50px;
     background: linear-gradient( purple, #00e5ff);
     box-shadow: 1px 1px 10px rgb(248, 2, 248);
-    animation: neon 5s linear infinite;
-    
+    animation: neon 5s linear infinite;  
 }
 .linguagemlt::after{
     content: '';
     position: absolute;
     inset: 1.5px;
     background-image: linear-gradient(to right, rgb(33, 33, 43), black);
-
 }
 
 .frontback{
@@ -52,8 +46,7 @@
     flex-wrap: wrap;
 }
 .textL{
-    display: flex;
-   
+    display: flex; 
 }
 .textL h1{
     padding: 15px;
@@ -63,7 +56,6 @@
 .icons{
     font-size: 50px;
     z-index: 1;
-    
 }
 .descP{
     padding: 10px;
@@ -71,7 +63,6 @@
 }
 strong{
     color: rgb(130, 45, 130);
-    
 }
 
 @media(max-width: 560px){
@@ -82,5 +73,4 @@ strong{
     .frontback{
         padding: 20px;
     }
-
 }

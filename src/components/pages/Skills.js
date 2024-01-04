@@ -15,10 +15,11 @@ function Skills(){
                     <h1>React</h1>
                 </nav>
                 <nav className={styles.textL}>
-                    <p className={styles.descP}>O <strong>React</strong> é uma biblioteca front-end <strong>JavaScript</strong> de código aberto com foco em criar interfaces de usuário em páginas web.</p>
+                    <p className={styles.descP}>
+                        O <strong>React</strong> é uma biblioteca front-end <strong>JavaScript</strong> de código aberto com foco em criar interfaces de usuário em páginas web.
+                    </p>
                 </nav>
-                </div>
-
+            </div>
             <div className={styles.linguagemlt}>
                 <nav className={styles.textL}>
                     <IoLogoJavascript className={styles.icons}/>
@@ -27,7 +28,7 @@ function Skills(){
                 <nav className={styles.textL}>
                     <p className={styles.descP}>O <strong>Javascript</strong> é linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
                 </nav>
-                </div>
+            </div>
 
             <div className={styles.linguagemlt}>
                 <nav className={styles.textL}>
@@ -57,12 +58,11 @@ function Skills(){
                     <p className={styles.descP}><strong>Java</strong> é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores na empresa Sun Microsystems.</p>
                 </nav>
             </div>
-
         </nav>
-        <h1>Aprendendo:</h1>
-        <nav className={styles.frontback}>
-            
 
+        <h1>Aprendendo:</h1>
+
+        <nav className={styles.frontback}>
             <div className={styles.linguagemlt}>
                 <nav className={styles.textL}>
                     <FaPython className={styles.icons}/>
@@ -71,9 +71,8 @@ function Skills(){
                 <nav className={styles.textL}>
                     <p className={styles.descP}><strong>Python</strong> é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.</p>
                 </nav>
-                </div>
+            </div>
         </nav>
-        
     </div>
 )}
 

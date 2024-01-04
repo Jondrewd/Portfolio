@@ -5,6 +5,7 @@ function Projects(){
     <div className={styles.projectsLayout}>
         <Project/>
     </div>
-)}
+    )   
+}
 
 export default Projects
