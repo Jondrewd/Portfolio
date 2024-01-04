@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+  }
+button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  z-index: 2;
+}
+.buttonSide{
+  text-decoration: none;
+  z-index: 2;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 260px;
+  height: 100%;
+  padding: 0 16px;
+  background: #1d212a;
+  border-right: 1px solid #2e303e;
+  transition: width 0.4s;
+  z-index: 2;
+}
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  padding: 0 1.25rem 0 0;
+  border-bottom: 1px solid #2e303e;
+  color: #e1ecff;
+  z-index: 2;
+}
+.sidebar .sidebar-header button {
+  width: 54px;
+  z-index: 2;
+}
+.sidebar button {
+  position: relative;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  font-size: 1.5em;
+  border-radius: 6px;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0 16px;
+  color: #e1ecff;
+  transition: background 0.3s;
+  z-index: 2;
+}
+.sidebar button span:nth-child(2) {
+  flex: 1 1 auto;
+  z-index: 2;
+}
+.sideLink{
+  text-decoration: none;
+  z-index: 2;
+}
+.sidebar button span {
+  transition: 0.3s;
+  z-index: 2;
+}
+.sidebar button:not(.active):hover {
+  background: #2e303e;
+  width: 200px;
+  z-index: 2;
+}
+.sub-nav button.active::before {
+  background: #e1ecff;
+  z-index: 2;
+}
+.sub-nav {
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 2;
+}
+.sub-nav button {
+  padding-left: 54px;
+  z-index: 2;
+}
+.sub-nav button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  translate: 0 -50%;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #e1ecff;
+  z-index: 2;
+}
+.sidebar {
+  width: 200px;
+  transition: width 0.3s ease;
+  z-index: 2;
+}
+.sidebar.closed {
+  width: 0px; 
+  background-color: transparent;
+  border: none;
+  z-index: 2;
+}
+.sidebar.closed > .buttonSide{
+  display: none;
+  z-index: 2;
+}
+.buttonSide{
+  text-decoration: none;
+  z-index: 2;
+}
+.nav-button{
+  text-decoration: none;
+  font-size: 1.5em;
+  transition: .5s;
+  z-index: 2;
+}
+.nav-button:hover{
+  font-size: 1.8em;
+  color: purple;
+  text-decoration: line-through;
+  z-index: 2;
+}
+.sidebar, .nav-button{
+display: none;
+z-index: 2;
+}
+@media(max-width: 560px){
+.sidebar, .nav-button{
+  display: block;
+  margin-bottom: 15px;
+}
+}

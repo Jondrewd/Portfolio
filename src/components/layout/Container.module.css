@@ -1,19 +1,11 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    
-
     display: flex;
     flex-direction: column;
     align-items: center;
     align-self: center;
     align-content: center;
     flex-wrap: wrap;
-
-  
- 
-  
     gap: 1em;
-    
-
 }

@@ -4,7 +4,7 @@ import styles from './Button.module.css'
 function Button({to, text}){
     return(
         <Link className={styles.btn} to={to}>
-        {text}
+         {text}
         </Link>
     )
 }

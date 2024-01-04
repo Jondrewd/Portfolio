@@ -14,10 +14,10 @@ function Navbar(){
                 <Link className={styles.nav_link} to='/aboutme'> About me</Link>
                 <Link className={styles.nav_link} to='/projects'> Projects</Link>
             </ul>
-            
            <Sidebar/>
         </div>
         
-)}
+    )
+}
 
 export default Navbar

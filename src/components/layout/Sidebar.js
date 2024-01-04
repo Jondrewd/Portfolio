@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "./sicebar.css";
+import "./sidebar.css";
 import { MdMenu } from "react-icons/md";
 import {Link} from 'react-router-dom'
 

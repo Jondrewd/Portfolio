@@ -11,11 +11,9 @@
     background-image: url('../images/_9d77bfa3-8005-45af-802b-fde025dea995.jpeg');
     background-size: cover;
 }
-
 .textA{
     margin-left: 50px;
     width: 500px;
-
 }
 
 @media(max-width: 560px){
@@ -23,7 +21,7 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 200px;
+        top: 100px;
         align-items: center;
     }
     .textA{
