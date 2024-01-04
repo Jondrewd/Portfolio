@@ -1,0 +1,16 @@
+.social{
+    margin: auto;
+    display: flex;
+ 
+}
+.socialIcon{
+    width: 150px;
+    height: 150px;
+    box-shadow: 1px 1px 10px purple;
+    margin: 20px;
+    border-radius: 4px;
+}
+.social p{
+    font-size: 1.7em;
+    margin-left: 20px;
+}
