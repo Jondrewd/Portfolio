@@ -3,6 +3,7 @@
     border: 2px solid rgb(130, 45, 130);
     padding: 5px;
     text-decoration: none;
+    border-radius: 5px;
     transition: .5s;
 }
 .btn:hover{
