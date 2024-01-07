@@ -29,8 +29,8 @@
     left: -20%;
     width: 300px;
     height: 50px;
-    background: linear-gradient( purple, #00e5ff);
-    box-shadow: 1px 1px 10px rgb(248, 2, 248);
+    background: purple;
+    box-shadow: 1px 1px 50px rgb(248, 2, 248);
     animation: neon 5s linear infinite;  
 }
 .linguagemlt::after{
