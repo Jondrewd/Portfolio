@@ -7,11 +7,12 @@
 .textH{
     padding: 50px;
 }
+
 p{
     color: rgb(173, 173, 173);
 }
 .textH p{
-    padding: 12px 0px;
+    padding: 10px 0px;
 }
 
 strong{
@@ -24,9 +25,13 @@ strong{
     background-size: cover;
 }
 @media(max-width: 560px){
+    .homeLayout{
+        flex-direction: column-reverse;
+        padding-left: 20%;
+        top: 150px;
+    }
     .textH{
         padding: 0;
-        margin-left: 3%;
     }
     .image{
         width: 150px;
