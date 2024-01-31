@@ -24,11 +24,9 @@
     z-index: 0;
     margin-left: 20px;
 }
-
 .space h2{
     margin-bottom: 15px;
 }
-
 .projectGrid{
     width: 200px;
     height:200px;
@@ -42,7 +40,6 @@
   font-size: 5em;
 }
 .projectGrid img{
-  
     width: 198px;
     height: 198px;
 }
@@ -56,8 +53,7 @@
 }
 .projectGrid:hover{
     .projectDesc{
-        display: block;
-        
+        display: block;    
     }
     img{
         display: none;
@@ -68,7 +64,6 @@
 }
 .button{
     display: flex;
- 
     flex-wrap: wrap;
 }
 .button a{
@@ -85,5 +80,4 @@
 }
 .button a:hover{
     box-shadow: 1px 1px 8px rgba(128, 0, 128, 0.741);
-
 }

@@ -15,8 +15,8 @@ function Project(){
                     </div>
                     <h2>Costs: </h2>
                     <div className={styles.button}>
-                        <a href="" target="_blank">Ver site</a>
-                       <a href="https://github.com/Jondrewd/Project-costs" target="_blank">Repositório</a>
+                         <a href="/projects" target="_blank">Em breve...</a>
+                         <a href="https://github.com/Jondrewd/Project-costs" target="_blank">Repositório</a>
                     </div>
                 </span>
                 <span>
@@ -26,24 +26,24 @@ function Project(){
                     </div>
                     <h2>Xadrez: </h2>
                     <div className={styles.button}>
-                    <a href="/" target="_blank">Em construção...</a>
-                        <a href="" target="_blank">Em construção...</a>
+                        <a href="/projects" target="_blank">Em breve...</a>
+                        <a href="/projects" target="_blank">Em breve...</a>
                     </div>
                 </span>
                 <span>
                     <div className={styles.projectGrid}><h1>Em construção...</h1> </div>
                     <h2>Projeto 3: </h2>
                     <div className={styles.button}>
-                    <a href="google.com" target="_blank">Ver site</a>
-                        <a href="" target="_blank">Repositório</a>
+                        <a href="/projects" target="_blank">Ver site</a>
+                        <a href="/projects" target="_blank">Repositório</a>
                     </div>
                 </span>
                 <span>
                     <div className={styles.projectGrid}><h1>Em construção...</h1> </div>
                     <h2>Projeto 4: </h2>
                     <div className={styles.button}>
-                    <a href="google.com" target="_blank">Ver site</a>
-                        <a href="" target="_blank">Repositório</a>
+                        <a href="/projects" target="_blank">Ver site</a>
+                        <a href="/projects" target="_blank">Repositório</a>
                     </div>
                 </span>
 
