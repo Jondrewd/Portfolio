@@ -49,6 +49,7 @@
     margin-right: 350px;
     display: none;
 }
+
 @media(max-width: 560px){
      .nav_link{
         display: none;

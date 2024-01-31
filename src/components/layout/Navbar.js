@@ -7,9 +7,9 @@ function Navbar(){
 
     return(
         <div className={styles.nav_layout}>
-           <Link className={styles.nav_linkh1} to='/'>  <h1>Portfolio</h1></Link>
+           <Link className={styles.nav_linkh1} to='/'>  <h1>Jondrewd</h1></Link>
             <ul>
-                <Link className={styles.nav_link} to='/'> Home</Link>
+                <Link className={styles.nav_link} to='/'>Home</Link>
                 <Link className={styles.nav_link} to='/skills'> Skills</Link>
                 <Link className={styles.nav_link} to='/aboutme'> About me</Link>
                 <Link className={styles.nav_link} to='/projects'> Projects</Link>
