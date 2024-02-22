@@ -11,7 +11,7 @@ function Project(){
                 <span>
                     
                     <div className={styles.projectGrid}><img src={Logo} alt='Logotipo do App' /> 
-                    <p className={styles.projectDesc}>Projeto criado com React.js, desenvolvido usando suas bibliotecas e uma api com um servidor ficticio criado com node.js no curso.</p>
+                    <p className={styles.projectDesc}></p>
                     </div>
                     <h2>Costs: </h2>
                     <div className={styles.button}>
@@ -22,7 +22,7 @@ function Project(){
                 <span>
                     <div className={styles.projectGrid}>
                     <h1 className={styles.iconPG}><FaChessKnight/></h1>
-                    <p className={styles.projectDesc}>Projeto criado com Javascript e Java, com a proposta de criar um jogo de xadrez funcional, com todas as lógicas que envolvem o mesmo.</p>
+                    <p className={styles.projectDesc}>Projeto criado com Java, com a proposta de criar um jogo de xadrez funcional, com todas as lógicas que envolvem o mesmo.</p>
                     </div>
                     <h2>Xadrez: </h2>
                     <div className={styles.button}>
